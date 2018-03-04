@@ -1,0 +1,108 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+div.titlename {
+    text-align: center;
+}
+
+embed {
+    margin-top:160px;
+}
+
+p
+{   
+    font-size: 32pt;
+    font-family: PingFang SC;
+    font-weight:bold;
+    text-align: center;
+    margin-top: -14px;
+} 
+
+.p2
+{   
+    font-size: 20pt;
+    font-family: PingFang SC;
+    font-weight: normal;
+    text-align: center;
+} 
+
+div.Mainbuttonbox
+{
+    
+    text-align: center;
+    margin-top:30px;
+}
+
+a.Mainbutton
+{   
+    background-color:#EFEFEF;
+    border:none;
+    border-radius:8px;
+    padding:16px 52px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-family:PingFang SC;
+    font-weight:bold;
+    color:#000000;
+    margin: 6px 6px;
+    cursor:pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}   
+a.Mainbutton:link {
+    text-decoration:none;
+}
+a.Mainbutton:hover {
+    background-color: #ff4848;
+    color: white; 
+}
+a.Mainbutton:active {
+    background-color: #ff4848;
+    color: white; 
+}
+
+.button2{
+    background-color:#fc4a4e;
+    border:none;
+    border-radius:8px;
+    padding:16px 52px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-family:PingFang SC;
+    font-weight:bold;
+    color:#ffffff;
+    margin: 6px 6px;
+    cursor:pointer;
+}
+
+
+.huabu {
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+.yuan {
+    width: 512px;
+    margin: 50px;
+    transition: All 0.1s ease-in-out;
+    -webkit-transition: All 0.3s ease-in-out;
+    -moz-transition: All 0.3s ease-in-out;
+    -o-transition: All 0.3s ease-in-out;
+
+}
+
+.yuan:hover {
+        transform:translate(0,-10px);
+    -webkit-transform:translate(0,-10px);
+    -moz-transform:translate(0,-10px);
+    -o-transform:translate(0,-10px);
+    -ms-transform:translate(0,-10px);
+}
