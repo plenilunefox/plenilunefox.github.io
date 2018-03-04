@@ -43,7 +43,7 @@ a.Mainbutton
 {   
     background-color:#EFEFEF;
     border:none;
-    border-radius:12px;
+    border-radius:18px;
     padding:16px 52px;
     text-align: center;
     display: inline-block;
@@ -72,7 +72,7 @@ a.Mainbutton:active {
 .button2{
     background-color:#bc9f56;
     border:none;
-    border-radius:12px;
+    border-radius:18px;
     padding:16px 52px;
     text-align: center;
     display: inline-block;
@@ -114,20 +114,4 @@ a.Mainbutton:active {
 .erweima
 {
     width: 400px;
-}
-
-.emailads
-{   
-    background-color:#f4ead0;
-    border:none;
-    border-radius:40px;
-    padding:16px 52px;
-    text-align: center;
-    display: inline-block;
-    font-size: 36px;
-    font-family:PingFang SC;
-    font-weight:400;
-    color:#000000;
-    margin: 6px 6px;
-    cursor:pointer;
 }
