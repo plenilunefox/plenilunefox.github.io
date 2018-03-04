@@ -98,7 +98,7 @@ a.Mainbutton:active {
     -o-transition: All 0.1s ease-in-out;
 }
 
-.yuan:active {
+.yuan:hover {
     width: 542px;
     margin: 35px;
     transition: All 0.1s ease-in-out;
