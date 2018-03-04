@@ -17,16 +17,16 @@ p
 {   
     font-size: 32pt;
     font-family: PingFang SC;
-    font-weight:bold;
+    font-weight: 600;
     text-align: center;
     margin-top: -14px;
 } 
 
 .p2
 {   
-    font-size: 30pt;
+    font-size: 28pt;
     font-family: PingFang SC;
-    font-weight: 600;
+    font-weight: 300;
     text-align: center;
 } 
 
@@ -47,7 +47,7 @@ a.Mainbutton
     display: inline-block;
     font-size: 36px;
     font-family:PingFang SC;
-    font-weight:bold;
+    font-weight:600;
     color:#000000;
     margin: 12px 12px;
     cursor:pointer;
@@ -58,16 +58,16 @@ a.Mainbutton:link {
     text-decoration:none;
 }
 a.Mainbutton:hover {
-    background-color: #ff4848;
+    background-color: #bc9f56;
     color: white; 
 }
 a.Mainbutton:active {
-    background-color: #ff4848;
+    background-color: #bc9f56;
     color: white; 
 }
 
 .button2{
-    background-color:#fc4a4e;
+    background-color:#bc9f56;
     border:none;
     border-radius:12px;
     padding:16px 52px;
@@ -75,7 +75,7 @@ a.Mainbutton:active {
     display: inline-block;
     font-size: 36px;
     font-family:PingFang SC;
-    font-weight:bold;
+    font-weight:600;
     color:#ffffff;
     margin: 12px 12px;
     cursor:pointer;
@@ -105,4 +105,20 @@ a.Mainbutton:active {
     -webkit-transition: All 0.1s ease-in-out;
     -moz-transition: All 0.1s ease-in-out;
     -o-transition: All 0.1s ease-in-out;
+}
+
+.emailads
+{   
+    background-color:#f4ead0;
+    border:none;
+    border-radius:40px;
+    padding:16px 52px;
+    text-align: center;
+    display: inline-block;
+    font-size: 36px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:#000000;
+    margin: 6px 6px;
+    cursor:pointer;
 }
