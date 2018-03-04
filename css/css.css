@@ -10,7 +10,7 @@ div.titlename {
 }
 
 embed {
-    margin-top:160px;
+    margin-top:280px;
 }
 
 p
@@ -24,9 +24,9 @@ p
 
 .p2
 {   
-    font-size: 20pt;
+    font-size: 30pt;
     font-family: PingFang SC;
-    font-weight: normal;
+    font-weight: 600;
     text-align: center;
 } 
 
@@ -41,15 +41,15 @@ a.Mainbutton
 {   
     background-color:#EFEFEF;
     border:none;
-    border-radius:8px;
+    border-radius:12px;
     padding:16px 52px;
     text-align: center;
     display: inline-block;
-    font-size: 24px;
+    font-size: 36px;
     font-family:PingFang SC;
     font-weight:bold;
     color:#000000;
-    margin: 6px 6px;
+    margin: 12px 12px;
     cursor:pointer;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
@@ -69,21 +69,21 @@ a.Mainbutton:active {
 .button2{
     background-color:#fc4a4e;
     border:none;
-    border-radius:8px;
+    border-radius:12px;
     padding:16px 52px;
     text-align: center;
     display: inline-block;
-    font-size: 24px;
+    font-size: 36px;
     font-family:PingFang SC;
     font-weight:bold;
     color:#ffffff;
-    margin: 6px 6px;
+    margin: 12px 12px;
     cursor:pointer;
 }
 
 
 .huabu {
-    margin-top: 80px;
+    margin-top: 180px;
     text-align: center;
 }
 
@@ -93,16 +93,16 @@ a.Mainbutton:active {
     width: 512px;
     margin: 50px;
     transition: All 0.1s ease-in-out;
-    -webkit-transition: All 0.3s ease-in-out;
-    -moz-transition: All 0.3s ease-in-out;
-    -o-transition: All 0.3s ease-in-out;
-
+    -webkit-transition: All 0.1s ease-in-out;
+    -moz-transition: All 0.1s ease-in-out;
+    -o-transition: All 0.1s ease-in-out;
 }
 
-.yuan:hover {
-        transform:translate(0,-10px);
-    -webkit-transform:translate(0,-10px);
-    -moz-transform:translate(0,-10px);
-    -o-transform:translate(0,-10px);
-    -ms-transform:translate(0,-10px);
+.yuan:active {
+    width: 542px;
+    margin: 35px;
+    transition: All 0.1s ease-in-out;
+    -webkit-transition: All 0.1s ease-in-out;
+    -moz-transition: All 0.1s ease-in-out;
+    -o-transition: All 0.1s ease-in-out;
 }
