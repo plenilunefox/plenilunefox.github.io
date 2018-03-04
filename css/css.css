@@ -28,6 +28,8 @@ p
     font-family: PingFang SC;
     font-weight: 300;
     text-align: center;
+    letter-spacing:6px;
+    line-height:62px;
 } 
 
 div.Mainbuttonbox
@@ -48,6 +50,7 @@ a.Mainbutton
     font-size: 36px;
     font-family:PingFang SC;
     font-weight:600;
+    letter-spacing:2px;
     color:#000000;
     margin: 12px 12px;
     cursor:pointer;
@@ -76,6 +79,7 @@ a.Mainbutton:active {
     font-size: 36px;
     font-family:PingFang SC;
     font-weight:600;
+    letter-spacing:2px;
     color:#ffffff;
     margin: 12px 12px;
     cursor:pointer;
