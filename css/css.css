@@ -10,7 +10,7 @@ div.titlename {
 }
 
 embed {
-    margin-top:280px;
+    margin-top:200px;
 }
 
 p
@@ -109,6 +109,11 @@ a.Mainbutton:active {
     -webkit-transition: All 0.1s ease-in-out;
     -moz-transition: All 0.1s ease-in-out;
     -o-transition: All 0.1s ease-in-out;
+}
+
+.erweima
+{
+    width: 400px;
 }
 
 .emailads
