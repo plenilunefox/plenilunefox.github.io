@@ -15,18 +15,18 @@ embed {
 
 p
 {   
-    font-size: 32pt;
-    font-family: PingFang SC;
+    font-size: 30pt;
     font-weight: 600;
+    font-family: PingFang SC;
     text-align: center;
     margin-top: -14px;
 } 
 
 .p2
 {   
-    font-size: 28pt;
-    font-family: PingFang SC;
+    font-size: 26pt;
     font-weight: 300;
+    font-family: PingFang SC;
     text-align: center;
     letter-spacing:6px;
     line-height:62px;
@@ -47,8 +47,8 @@ a.Mainbutton
     padding:16px 52px;
     text-align: center;
     display: inline-block;
+    font-family: PingFang SC;
     font-size: 36px;
-    font-family:PingFang SC;
     font-weight:600;
     letter-spacing:2px;
     color:#000000;
@@ -76,8 +76,8 @@ a.Mainbutton:active {
     padding:16px 52px;
     text-align: center;
     display: inline-block;
+    font-family: PingFang SC;
     font-size: 36px;
-    font-family:PingFang SC;
     font-weight:600;
     letter-spacing:2px;
     color:#ffffff;
