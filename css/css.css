@@ -7,57 +7,77 @@ body {
 
 div.titlename {
     text-align: center;
-    margin-top:200px;
+    margin-top: 100px;
 }
 
 p
 {   
-    font-size: 30pt;
+    font-size: 11px;
     font-weight: 600;
     font-family: PingFang SC;
     text-align: center;
-    margin-top: -14px;
 } 
 
-.p2
-{   
-    font-size: 26pt;
+.titlelogot
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: PingFang SC;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.p1{
+    font-size: 11px;
     font-weight: 300;
     font-family: PingFang SC;
     text-align: center;
-    letter-spacing:6px;
-    line-height:62px;
+    letter-spacing:3px;
+    line-height:20px;
+    margin-bottom: 30px;
+}
+
+.p2
+{   
+    font-size: 11px;
+    font-weight: 300;
+    font-family: PingFang SC;
+    text-align: left;
+    letter-spacing:3px;
+    line-height:20px;
+    margin-bottom: 30px;
+    margin-left:30px;
 } 
 
 .p3
 {   
-    font-size: 26pt;
+    font-size: 15px;
     font-weight: 300;
     font-family: PingFang SC;
     text-align: left;
-    margin-left: 60px;
-    letter-spacing:6px;
-    line-height:62px;
+    margin-left: 30px;
+    letter-spacing:3px;
+    line-height:31px;
 } 
 
 div.Mainbuttonbox
 {
     text-align: center;
-    margin-top:30px;
+    margin-top:25px;
 }
 
 div.headbuttonbox
 {
     text-align:left;
-    margin-top:230px;
-    margin-left:50px;
+    margin-top:100px;
+    margin-left:25px;
+    margin-bottom:5px;
 }
 
 div.pagename {
     text-align:left;
-    margin-left:60px;
-    margin-top:40px;
-    font-size: 56pt;
+    margin-left:30px;
+    font-size: 28px;
     font-weight: 600;
     font-family: PingFang SC;
 }
@@ -66,16 +86,16 @@ a.Mainbutton
 {   
     background-color:#EFEFEF;
     border:none;
-    border-radius:18px;
-    padding:16px 52px;
+    border-radius:4px;
+    padding:6px 16px;
     text-align: center;
     display: inline-block;
     font-family: PingFang SC;
-    font-size: 36px;
+    font-size: 11px;
     font-weight:600;
-    letter-spacing:2px;
+    letter-spacing:1px;
     color:#000000;
-    margin: 12px 12px;
+    margin: 4px 4px;
     cursor:pointer;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
@@ -95,44 +115,45 @@ a.Mainbutton:active {
 .button2{
     background-color:#bc9f56;
     border:none;
-    border-radius:18px;
-    padding:16px 52px;
+    border-radius:4px;
+    padding:6px 16px;
     text-align: center;
     display: inline-block;
     font-family: PingFang SC;
-    font-size: 36px;
+    font-size: 11px;
     font-weight:600;
-    letter-spacing:2px;
+    letter-spacing:1px;
     color:#ffffff;
-    margin: 12px 12px;
+    margin: 4px 4px;
     cursor:pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
 }
 
 
 .huabu {
-    margin-top: 180px;
+    margin-top: 40px;
     text-align: center;
 }
 
 .pagehuabu {
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
 }
 
 
 
 .yuan {
-    width: 512px;
-    margin: 50px;
+    width: 168px;
     transition: All 0.1s ease-in-out;
     -webkit-transition: All 0.1s ease-in-out;
     -moz-transition: All 0.1s ease-in-out;
     -o-transition: All 0.1s ease-in-out;
 }
 
-.yuan:hover {
-    width: 542px;
-    margin: 35px;
+.yuan:active {
+    width: 200px;
+    margin: 16px;
     transition: All 0.1s ease-in-out;
     -webkit-transition: All 0.1s ease-in-out;
     -moz-transition: All 0.1s ease-in-out;
@@ -140,11 +161,10 @@ a.Mainbutton:active {
 }
 
 .tu {
-    width: 750px;
-    margin: 10px;
+    width: 375px;
 }
 
 .erweima
 {
-    width: 400px;
+    width: 200px;
 }
