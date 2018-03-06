@@ -7,9 +7,6 @@ body {
 
 div.titlename {
     text-align: center;
-}
-
-embed {
     margin-top:200px;
 }
 
@@ -32,11 +29,37 @@ p
     line-height:62px;
 } 
 
+.p3
+{   
+    font-size: 26pt;
+    font-weight: 300;
+    font-family: PingFang SC;
+    text-align: left;
+    margin-left: 60px;
+    letter-spacing:6px;
+    line-height:62px;
+} 
+
 div.Mainbuttonbox
 {
-    
     text-align: center;
     margin-top:30px;
+}
+
+div.headbuttonbox
+{
+    text-align:left;
+    margin-top:230px;
+    margin-left:50px;
+}
+
+div.pagename {
+    text-align:left;
+    margin-left:60px;
+    margin-top:40px;
+    font-size: 56pt;
+    font-weight: 600;
+    font-family: PingFang SC;
 }
 
 a.Mainbutton
@@ -91,6 +114,11 @@ a.Mainbutton:active {
     text-align: center;
 }
 
+.pagehuabu {
+    margin-top: 100px;
+    text-align: center;
+}
+
 
 
 .yuan {
@@ -109,6 +137,11 @@ a.Mainbutton:active {
     -webkit-transition: All 0.1s ease-in-out;
     -moz-transition: All 0.1s ease-in-out;
     -o-transition: All 0.1s ease-in-out;
+}
+
+.tu {
+    width: 750px;
+    margin: 10px;
 }
 
 .erweima
