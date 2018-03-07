@@ -4,6 +4,17 @@ body {
   padding: 0px;
 }
 
+.asia 
+{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/asiabackground.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f3f5f8;
+}
 
 div.titlename {
     text-align: center;
@@ -60,6 +71,19 @@ p
     line-height:31px;
 } 
 
+.p4
+{   
+    font-size: 15px;
+    font-weight: 300;
+    font-family: PingFang SC;
+    text-align: left;
+    color:#e5ca87;
+    letter-spacing:3px;
+    line-height:30px;
+    margin-bottom: 30px;
+    margin-left:30px;
+} 
+
 div.Mainbuttonbox
 {
     text-align: center;
@@ -80,6 +104,15 @@ div.pagename {
     font-size: 28px;
     font-weight: 600;
     font-family: PingFang SC;
+}
+
+div.pagename2 {
+    text-align:left;
+    margin-left:30px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: PingFang SC;
+    color: #e5ca87;
 }
 
 a.Mainbutton
@@ -159,6 +192,11 @@ a.Mainbutton:active {
 
 .tu {
     width: 375px;
+}
+
+.tu2 {
+    width: 220px;
+    margin-top: -20px;
 }
 
 .erweima
