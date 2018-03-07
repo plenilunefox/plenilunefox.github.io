@@ -6,15 +6,17 @@ body {
 
 .asia 
 {
-  margin: 0px;
-  padding: 0px;
-  background-image: url(../img/asiabackground.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #f3f5f8;
-}
+background-color: #000; 
+background-image: url(../img/asiabackground.jpg);
+background-repeat: no-repeat; 
+background-position: center;
+background-attachment: fixed;       
+webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;     
+} 
+
 
 div.titlename {
     text-align: center;
@@ -132,7 +134,8 @@ a.Mainbutton
     cursor:pointer;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
-}   
+}
+
 a.Mainbutton:link {
     text-decoration:none;
 }
